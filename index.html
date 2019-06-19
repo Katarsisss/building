@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Строительный сайт</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<!-- NAVBAR
+================================================== -->
+
+<body>
+    <header>
+        <div class="menu_bar">
+            <a href="" class="bt-menu-2"><img src="img/logo.png" alt=""></a>
+            <div class="bt-menu">
+                <div class="wrapper">
+                    <div class="main-item menu">
+                        <span class="line line01"></span>
+                        <span class="line line02"></span>
+                        <span class="line line03"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="top-menu">
+            <nav>
+                <div class="logo"><img src="img/logo.png" alt=""></div>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#advantages">Наши услуги</a></li>
+                        <li><a href="#company">О компании</a></li>
+                        <li><a href="#services">Наши услуги</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+            </nav>
+        </section>
+    </header>
+    <section id="home" name="home">
+        <div class="container-fluid home">
+            <div class="row">
+                <!-- Carousel
+    ================================================== -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img class="first-slide" src="img/tender-stroitelstvo.jpg" alt="First slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>Ремонт ванных комнат</h1>
+                                    <p>Выберите надежных мастеров без посредников и сэкономьте до 40%!</p>
+                                    <div class="submit-description">
+                                        <div class="submit-2">
+                                            <input type="submit" class="open-form" value="ЗАКАЗАТЬ ЗВОНОК" id="button-blue-3" />
+                                            <div class="ease-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="second-slide" src="img/cropped-8ef673f9c71102a10f0c1382b0370733.jpg" alt="Second slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>Another example headline.</h1>
+                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <div class="submit-description">
+                                        <div class="submit-2">
+                                            <input type="submit" value="ЗАКАЗАТЬ ЗВОНОК" id="button-blue-3" />
+                                            <div class="ease-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="third-slide" src="img/slide-one.jpg" alt="Third slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>One more for good measure.</h1>
+                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <div class="submit-description">
+                                        <div class="submit-2">
+                                            <input type="submit" value="ЗАКАЗАТЬ ЗВОНОК" id="button-blue-3" />
+                                            <div class="ease-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.carousel -->
+            </div>
+        </div>
+        <div class="sectiom-mobi">
+            <div class="container-fluid">
+                <div class="row">
+                    <section id="section-1">
+                        <!-- Top Form -->
+                        <h1>Ремонт ванной комнаты</h1>
+                        <h3>Оставьте заявку и мы обязательно Вам перезвоним</h3>
+                        <form method="post" id="form1" class="form">
+                            <fieldset form="form1">
+                                <input type="text" name="name" placeholder="Введите ваше имя" required>
+                                <input type="tel" name="phone" placeholder="Введите ваш телефон: (xxx) xxx xxxx" title="Формат ввода: (xxx) xxx xxxx" pattern="\([0-9]{3}\)\s[0-9]{3}\s[0-9]{4}" required>
+                                <textarea name="text" class="" id="comment" placeholder="Комментарий"></textarea>
+                            </fieldset>
+                            <input type="submit" name="submit" value="Оставить Заявку">
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="form-popup">
+        <div class="container form-wrapper">
+            <button class="btn close-form">Закрыть</button>
+            <form id="my-form" novalidate="novalidate">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="form-title">Свяжитесь с нами</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Имя</label>
+                        <input type="text" class="form-control" id="name" name="name" required="">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="phone">Телефон</label>
+                        <input type="text" class="form-control" id="email" name="email" required="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label for="something">Сообщение</label>
+                        <textarea name="something" class="form-control" id=""></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn send-form">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <section id="advantages" name="advantages">
+        <div class="container marketing">
+            <!-- Three columns of text below the carousel -->
+            <div class="h2-description">
+                <h2><span>Почему нужно выбрать нас</span></h2>
+            </div>
+            <div class="row ">
+                <div class="advantages">
+                    <div class="col-lg-4">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Прозрачная смета</h3>
+                        <p>Наши специалисты составляют максимально точные сметы, если в процессе заказчик не меняет работы, стоимость остается неизменной!</p>
+                    </div><!-- /.col-lg-4 -->
+                </div>
+                <div class="advantages">
+                    <div class="col-lg-4">
+                        <i class="fas fa-coins"></i>
+                        <h3>Низкие цены</h3>
+                        <p>Низкая цена достигается путем оптимизации производственных процессов. В нашей компании отличное соотношение цена-качество.</p>
+                    </div><!-- /.col-lg-4 -->
+                </div>
+                <div class="advantages">
+                    <div class="col-lg-4">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Без предоплаты</h3>
+                        <p>Оплата за работу производится по факту выполненных работ в несколько этапов, в начале ремонта вы нечего не платите!</p>
+                    </div><!-- /.col-lg-4 -->
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+    <div class="wrapper-1">
+        <div class="h2-description-2">
+            <h2><span>Свяжитесь с нами</span></h2>
+        </div>
+        <div class="container">
+            <form method="post" action="#">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Телефон">
+                <button type="submit" title="Submit">Отправить <i class="fa fa-angle-right"></i></button>
+            </form>
+        </div>
+    </div>
+    <section id="company" id="name">
+        <div class="container">
+            <div class="h2-description">
+                <h2><span>О компании</span></h2>
+            </div>
+            <div class="featurette-top">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Ремонт ванных комнат и туалетов любой сложности</h2>
+                        <p class="lead">Мы полностью преобразим ваши ванну и туалет в визуально привлекательные помещения повышенной комфортности. Мы выполняем и косметический, и капитальный ремонты «под ключ» как совмещенных санузлов, так и отдельных.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="img/Shvedskaya-santehnika.jpg" data-holder-rendered="true">
+        </div>
+                    </div>
+                    <hr class="featurette-divider">
+                    <div class="row featurette">
+                        <div class="col-md-7 col-md-push-5">
+                            <h2 class="featurette-heading">Разработка уникального дизайна для каждого помещения</h2>
+                            <p class="lead">В современном обществе все поставлено на конвейер и с каждым днем вещи теряют свою уникальность. Вы можете подарить себе возможность окунуться в персонализированный мир в самой популярной комнате в доме. Вы также можете увидеть и оценить разработанный дизайн заранее за счет панорамных 3D–моделей, чертежей и 2-D развертки. Он будет каждый раз приятно удивлять пришедших гостей и доставлять постоянную радость хозяевам.</p>
+                        </div>
+                        <div class="col-md-5 col-md-pull-7">
+                            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="img/abol-04.jpg" data-holder-rendered="true">
+        </div>
+                        </div>
+                        <hr class="featurette-divider">
+                        <div class="row featurette">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading">Электромонтажные работы.</h2>
+                                <p class="lead">На сегодняшний день почти каждый прибор для ванной комнаты оснащен какой-либо навороченной электрической частью – сенсорные смесители, электрические сушилки, стиральные машинки и т.д. В каждый ванной уже требуется как минимум две розетки! Особенностью таких работ является повышенная влажность помещения, и электромонтажные работы должны это учитывать. Наши мастера сделают все так, что никакая влажность не станет помехой для бесперебойной работы приборов.</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="img/wm_14e3dbdac48f4f4133c1b06067891ac6.JPG" data-holder-rendered="true">
+        </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+    <section id="services" id="name">
+        <div class="services-top">
+            <div class="container">
+                <div class="h2-description">
+                    <h2><span>Наши услуги</span></h2>
+                </div>
+                <div class="services">
+                    <div class="services-1">
+                        <p><i class="fas fa-check-circle"></i>Укладка кафеля</p>
+                        <p><i class="fas fa-check-circle"></i>Монтаж ванной</p>
+                        <p><i class="fas fa-check-circle"></i>Починка крана</p>
+                        <p><i class="fas fa-check-circle"></i>Гидроизоляция пола</p>
+                    </div>
+                    <div class="services-2">
+                        <p><i class="fas fa-check-circle"></i>Укладка кафеля</p>
+                        <p><i class="fas fa-check-circle"></i>Монтаж ванной</p>
+                        <p><i class="fas fa-check-circle"></i>Починка крана</p>
+                        <p><i class="fas fa-check-circle"></i>Гидроизоляция пола</p>
+                    </div>
+                    <div class="services-2">
+                        <p><i class="fas fa-check-circle"></i>Укладка кафеля</p>
+                        <p><i class="fas fa-check-circle"></i>Монтаж ванной</p>
+                        <p><i class="fas fa-check-circle"></i>Починка крана</p>
+                        <p><i class="fas fa-check-circle"></i>Гидроизоляция пола</p>
+                    </div>
+                </div>
+                <div class="submit-description">
+                    <div class="submit-2">
+                        <input type="submit" value="СКАЧАТЬ ПРАЙС" id="button-blue-2" />
+                        <div class="ease-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews" name="reviews">
+        <div class="container">
+            <div class="h2-description">
+                <h2><span>Отзывы клиентов</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <!-- Carousel Slides / Quotes -->
+                        <div class="carousel-inner text-center">
+                            <!-- Quote 1 -->
+                            <div class="item active">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                                            <small>Someone famous</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 2 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                            <small>Someone famous</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 3 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                            <small>Someone famous</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <!-- Bottom Carousel Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
+                        </li>
+                            <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+                        </li>
+                            <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                        </li>
+                        </ol>
+                        <!-- Carousel Buttons Next/Prev -->
+                        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="form-top">
+        <div class="container">
+            <form>
+                <div class="block-form">
+                    <div class="h2-description-2">
+                        <h2><span>Контакты</span></h2>
+                    </div>
+                    <div class="form-left">
+                        <i class="fas fa-phone"></i>
+                        <div class="info">
+                            <p>Телефон:</p>
+                        </div>
+                        <p>+79999999999</p>
+                    </div>
+                    <div class="form-center">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <div class="info">
+                            <p>Адрес:</p>
+                        </div>
+                        <p>г.Москва, ул.Комсомольская д.23</p>
+                    </div>
+                    <div class="form-right">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="info">
+                            <p>Почта:</p>
+                        </div>
+                        <p>santehnika@mail.ru</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <section id="contacts" name="contacts">
+        <div class="form-main">
+            <div class="container">
+                <div class="form-center-2">
+                    <div class="h2-description-2">
+                        <h2>Свяжитесь с нами</h2>
+                    </div>
+                    <div class="form-div">
+                        <form class="form" id="form1">
+                            <p class="name">
+                                <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Имя" id="name" />
+                            </p>
+                            <p class="email">
+                                <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Почта" />
+                            </p>
+                            <p class="text">
+                                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Комментарий"></textarea>
+                            </p>
+                            <div class="submit">
+                                <input type="submit" value="ЗАКАЗАТЬ ЗВОНОК" id="button-blue" />
+                                <div class="ease"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-block">
+                <div class="logo-footer"><img src="img/logo.png" alt=""></div>
+                    <div class="menu-footer">
+                        <ul>
+                            <li><a href="#home">Главная</a></li>
+                            <li><a href="#advantages">Наши услуги</a></li>
+                            <li><a href="#company">О компании</a></li>
+                            <li><a href="#services">Наши услуги</a></li>
+                            <li><a href="#reviews">Отзывы</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-footer-2">
+                        <ul>
+                            <li><a href="#home">Главная</a></li>
+                            <li><a href="#advantages">Наши услуги</a></li>
+                            <li><a href="#company">О компании</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#services">Наши услуги</a></li>
+                            <li><a href="#reviews">Отзывы</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyright">
+                    <p>© 2018 MaxBuild. Все права защищены</p>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/pop-up-form.js"></script>
+        <script src="js/menu-scroll.js"></script>
+</body>
+
+</html>
